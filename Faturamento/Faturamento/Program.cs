@@ -8,7 +8,7 @@ namespace Faturamento
         {
             try
             {
-                string jsonPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "FaturamentoDiario.json");
+                string jsonPath = @"..\..\..\Dados\FaturamentoDiario.json";                 
 
                 string jsonData = File.ReadAllText(jsonPath);
 
